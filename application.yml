@@ -4,27 +4,40 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8010/eureka/
+      
+---
+spring:
+  profiles: sentence
+  application:
+    name: lab-4-sentence
+    
 ---
 spring:
   profiles: subject
-words: I,You,He,She,It
-
+  application:
+    name: lab-4-subject
+  
 ---
 spring:
   profiles: verb
-words: ran,knew,had,saw,bought
+  application:
+    name: lab-4-verb
 
 ---
 spring:
   profiles: article
-words: a,the
+  application:
+    name: lab-4-article
 
 ---
 spring:
   profiles: adjective
-words: reasonable,leaky,suspicious,ordinary,unlikely
+  application:
+    name: lab-4-adjective
 
 ---
 spring:
   profiles: noun
-words: boat,book,vote,seat,backpack,partition,groundhog  
+  application:
+    name: lab-4-noun
+    
