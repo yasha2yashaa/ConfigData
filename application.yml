@@ -9,7 +9,7 @@ eureka:
 spring:
   profiles: subject
   application:
-    name: lab-4-subject
+    name: subject
 server:
   port: 9000
 words: I,You,He,She,It
@@ -18,7 +18,7 @@ words: I,You,He,She,It
 spring:
   profiles: verb
   application:
-    name: lab-4-verb
+    name: verb
 server:
   port: 9001
 words: ran,knew,had,saw,bought
@@ -27,7 +27,7 @@ words: ran,knew,had,saw,bought
 spring:
   profiles: article
   application:
-    name: lab-4-article
+    name: article
 server:
   port: 9002
 words: a,the
@@ -36,7 +36,7 @@ words: a,the
 spring:
   profiles: adjective
   application:
-    name: lab-4-adjective
+    name: adjective
 server:
   port: 9003
 words: reasonable,leaky,suspicious,ordinary,unlikely
@@ -45,7 +45,7 @@ words: reasonable,leaky,suspicious,ordinary,unlikely
 spring:
   profiles: noun
   aplication:
-    name: lab-4-noun
+    name: noun
 server:
   port: 9004
 words: boat,book,vote,seat,backpack,partition,groundhog  
