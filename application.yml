@@ -44,7 +44,7 @@ words: reasonable,leaky,suspicious,ordinary,unlikely
 ---
 spring:
   profiles: noun
-  aplication:
+  application:
     name: noun
 server:
   port: 9004
