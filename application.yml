@@ -38,7 +38,7 @@ spring:
   application:
     name: adjective
 server:
-  port: 0
+  port: 9003
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
@@ -47,5 +47,5 @@ spring:
   application:
     name: noun
 server:
-  port: 0
+  port: 9004
 words: boat,book,vote,seat,backpack,partition,groundhog
