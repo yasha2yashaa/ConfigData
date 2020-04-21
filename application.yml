@@ -49,5 +49,3 @@ spring:
 server:
   port: 9004
 words: boat,book,vote,seat,backpack,partition,groundhog
-
----
