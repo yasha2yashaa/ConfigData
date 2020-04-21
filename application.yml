@@ -48,4 +48,6 @@ spring:
     name: noun
 server:
   port: 9004
-words: boat,book,vote,seat,backpack,partition,groundhog  
+words: boat,book,vote,seat,backpack,partition,groundhog
+
+---
